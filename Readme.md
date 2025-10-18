@@ -106,15 +106,13 @@ This project is a **complete Tetris game for Arduino** featuring:
 ## 📸 Screenshots / Demo  
 ![Tetris Screenshot 1](https://github.com/Harshil7426/Tetris/releases/download/v1/image.png)
 ![Tetris Screenshot 2](https://github.com/Harshil7426/Tetris/releases/download/v1/image-1.png)
+![Tetris Screenshot 3](https://github.com/Harshil7426/Tetris/releases/download/v1/image-2.png)
+![Tetris Screenshot 4](https://github.com/Harshil7426/Tetris/releases/download/v1/image-3.png)
+![Tetris Screenshot 4](https://github.com/Harshil7426/Tetris/releases/download/v1/image-4.png)
+![Tetris Screenshot 6](https://github.com/Harshil7426/Tetris/releases/download/v1/image-5.png)
+![Tetris Screenshot 7](https://github.com/Harshil7426/Tetris/releases/download/v1/image-6.png)
+![Tetris Screenshot 8](https://github.com/Harshil7426/Tetris/releases/download/v1/image-7.png)
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
-![alt text](image-7.png)
 ---
 
 
