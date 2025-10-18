@@ -1,0 +1,45 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Mega-6" mainComp="false" Show_id="true" Show_Val="false" Pos="-316,-148" rotation="0" hflip="1" vflip="1" label="Mega-6" idLabPos="3.67129,-5.31484" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega2560-63" Frequency="16 MHz" Program="../Documents/Arduino/joystick/tetris/sketch_oct9b/build/arduino.avr.mega/sketch_oct9b.ino.hex" Auto_Load="false" saveEepr="true" MainMcu="true" eeprom="40,0,0,0,0," SerialMon="-1" />
+</item>
+
+<item itemtype="Ili9341" CircId="Ili9341-8" mainComp="false" Show_id="true" Show_Val="false" Pos="-524,-84" rotation="0" hflip="1" vflip="1" label="Ili9341-8" idLabPos="-32,-180" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ssd1306" CircId="Ssd1306-9" mainComp="false" Show_id="true" Show_Val="false" Pos="-328,-204" rotation="0" hflip="1" vflip="1" label="Ssd1306-9" idLabPos="-32,-60" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="White" Width="128 _px" Height="64 _px" Rotate="true" Control_Code="60" Frequency="100 _kHz" />
+
+<item itemtype="KeyPad" CircId="KeyPad-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,-32" rotation="0" hflip="1" vflip="1" label="KeyPad-10" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="3" Cols="3" Key_Labels=" w aod s" />
+
+<item itemtype="AudioOut" CircId="AudioOut-18" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,96" rotation="180" hflip="1" vflip="1" label="AudioOut-18" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="8 Ω" Frequency="1 kHz" />
+
+<item itemtype="Connector" uid="Connector-45" startpinid="Ssd1306-9-PinSck" endpinid="Mega-6-21" pointList="-376,-156,-376,-100,-308,-100" />
+
+<item itemtype="Connector" uid="Connector-46" startpinid="Ssd1306-9-PinSda" endpinid="Mega-6-20" pointList="-368,-156,-368,-92,-308,-92" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="Ili9341-8-PinSck" endpinid="Mega-6-52" pointList="-548,100,-548,104,-392,104,-392,-160,-180,-160,-180,-124" />
+
+<item itemtype="Connector" uid="Connector-55" startpinid="Ili9341-8-PinCS" endpinid="Mega-6-10" pointList="-580,100,-580,124,-372,124,-372,60,-308,60" />
+
+<item itemtype="Connector" uid="Connector-56" startpinid="Ili9341-8-PinRst" endpinid="Mega-6-8" pointList="-572,100,-572,120,-376,120,-376,44,-308,44" />
+
+<item itemtype="Connector" uid="Connector-57" startpinid="Ili9341-8-PinDC" endpinid="Mega-6-9" pointList="-564,100,-564,116,-380,116,-380,52,-308,52" />
+
+<item itemtype="Connector" uid="Connector-58" startpinid="AudioOut-18-rPin" endpinid="Mega-6-GND0" pointList="-340,96,-308,96,-308,92" />
+
+<item itemtype="Connector" uid="Connector-59" startpinid="AudioOut-18-lPin" endpinid="Mega-6-A1" pointList="-340,104,-316,104,-316,184,-140,184,-140,12,-164,12" />
+
+<item itemtype="Connector" uid="Connector-62" startpinid="KeyPad-10-Pin4" endpinid="Mega-6-6" pointList="-356,24,-356,36,-320,36,-320,20,-308,20" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="KeyPad-10-Pin5" endpinid="Mega-6-7" pointList="-340,24,-340,40,-316,40,-316,28,-308,28" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="KeyPad-10-Pin3" endpinid="Mega-6-5" pointList="-372,24,-372,32,-324,32,-324,12,-308,12" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="Ili9341-8-PinMosi" endpinid="Mega-6-51" pointList="-556,100,-556,108,-388,108,-388,-156,-188,-156,-188,-132" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="KeyPad-10-Pin0" endpinid="Mega-6-2" pointList="-324,-24,-324,-12,-308,-12" />
+
+<item itemtype="Connector" uid="Connector-71" startpinid="KeyPad-10-Pin1" endpinid="Mega-6-3" pointList="-324,-8,-308,-8,-308,-4" />
+
+<item itemtype="Connector" uid="Connector-72" startpinid="KeyPad-10-Pin2" endpinid="Mega-6-4" pointList="-324,8,-324,4,-308,4" />
+
+</circuit>
